@@ -3,10 +3,6 @@
     background-image: url(/img/index/footer/bac.png);
     height: 690px;
 }
-.homefooter img{
-    width: 100%;
-    vertical-align: middle;
-}
 .homefooter .footer-info{
     display: flex;
     justify-content: space-evenly;
