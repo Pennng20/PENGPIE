@@ -50,6 +50,7 @@
     border-radius: 50px;
     margin-bottom: 90px;
     cursor: pointer;
+    position: relative;
 }
 .product-section .container .card-list .card a{
     text-decoration: none;

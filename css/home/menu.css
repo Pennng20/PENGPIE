@@ -37,18 +37,10 @@
     padding-bottom: 80px;
 }
 .menu .container .item-list .button-left{
-    width: 50px;
-    height: 50px;
-    background-color: #F4C9C9;
-    border-radius: 50%;
-    margin-bottom: 130px;
+    margin-bottom: 150px;
 }
 .menu .container .item-list .button-right{
-    width: 50px;
-    height: 50px;
-    background-color: #F4C9C9;
-    border-radius: 50%;
-    margin-bottom: 130px;
+    margin-bottom: 150px;
 }
 .menu .container .button {
     font-size: 22px;
