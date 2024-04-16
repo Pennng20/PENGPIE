@@ -1,0 +1,67 @@
+.menu{
+    background-color: #FBE9E9;
+    padding-top: 30px ;
+    padding-bottom: 90px;
+}
+.container{
+    width: 1200px;
+}
+.menu .container .menu-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713; 
+    margin: 58px;
+}
+.menu .menu-info h3{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    color: #644713;
+}
+.menu .menu-info span{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #644713;
+}
+.menu .container .item-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .container .item-list .item-pic{
+    padding-bottom: 55px;
+    padding-top: 20px;
+}
+.menu .container .item-list .item-text{
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+.menu .container .item-list .button-left{
+    width: 50px;
+    height: 50px;
+    background-color: #F4C9C9;
+    border-radius: 50%;
+    margin-bottom: 130px;
+}
+.menu .container .item-list .button-right{
+    width: 50px;
+    height: 50px;
+    background-color: #F4C9C9;
+    border-radius: 50%;
+    margin-bottom: 130px;
+}
+.menu .container .button {
+    font-size: 22px;
+    width: 160px;
+    padding: 8px ;
+    background-color: #F4C9C9;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.menu .container .button a{
+    text-decoration: none;
+    color: #644713;
+}

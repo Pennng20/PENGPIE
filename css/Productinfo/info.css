@@ -1,0 +1,165 @@
+.info{
+    background-color: #FBE9E9;
+}
+.info .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+    overflow: hidden;
+}
+.info .container .pic-group{
+    width: 500px;
+    float:left; 
+    padding: 20px;
+}
+.info .container .bigpic img{
+    border: 1px ;
+    border-radius: 50px;
+}
+.info .container .smallpic {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.info .container .smallpic img{
+    border: 1px ;
+    border-radius: 20px;
+}
+.info .container .text-group{
+    float: right; 
+    width: 627px;
+}
+.info .container .text-group .title{
+    font-size: 30px;
+    color: #644713;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+.info .container .text-group .work span{
+    display: block;
+    color: #4F0000;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+.info .container .text-group .work span + span{
+    border-bottom: 1px solid #4F0000;
+}
+.info .container .text-group .food{
+    display: block;
+    color: #4F0000;
+    letter-spacing: 1px;
+    line-height: 30px;
+    border-bottom: 1.5px solid #4F0000;
+    padding: 15px 0;
+}
+.info .container .text-group .shop{
+    color: #4F0000;
+    display: flex;
+}
+.info .container .text-group .shop .item{
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+.info .container .text-group .shop .choose{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    padding-left: 70px ;
+    font-size: 14px;
+}
+.info .container .text-group .shop .choose > span{
+    border: 1px solid #4F0000;
+    border-radius: 50px;
+    padding: 0px 15px;
+    margin-bottom: 8px;
+}
+.info .container .price span{
+    display: block;
+    color: #4F0000;
+    border-top: 1.5px solid#4F0000;
+    padding: 15px 0 20px 0;
+}
+.info .container .price .big{
+    font-size: 18px;
+    color: #4F0000;
+    letter-spacing: 1px;
+}
+.info .container .botton{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-evenly;
+    padding: 50px 0 80px 0;
+}
+.info .container .botton .buy{
+    border:1px solid #4F0000;
+    padding: 6px 20px;
+    border-radius: 50px;
+}
+.info .container .botton .car{
+    border:1px solid #4F0000;
+    padding: 6px 30px;
+    border-radius: 50px;
+}
+.problem{
+    background-color: #F4C9C9;
+}
+.problem .container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.problem .container .title{
+    font-size: 32px;
+    color: #4F0000;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 50px 0px;
+}
+.problem .container .answer span{
+    display: block;
+    letter-spacing: 1px;
+    line-height: 45px;
+}
+option{
+    background-color: #ffefef;
+    border: none; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px; 
+}
+select {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    background-color: #ffffff; 
+    width: 150px; 
+    text-align: center;
+    margin-left: 30px;
+}
+input[type="date"] {
+    padding: 8px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    background-color: #fff; 
+    width: 150px;
+    margin-left: 35px;
+    text-align: center;
+}
+.botton input[type="button"] {
+    padding: 10px 20px; 
+    font-size: 14px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer;
+    border: 1px solid #ccc; 
+    background-color: #fff; 
+}
+

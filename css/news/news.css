@@ -1,0 +1,62 @@
+.news-section{
+    background-color: #F4C9C9;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.news-section .container .title-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713;
+}
+.news-section .title-info h3{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin: 0;
+    padding-right: 10px;
+    color: #644713;
+}
+.news-section .title-info span{
+    color: #644713;
+}
+.news-section .container .card-list{
+    border: 2px soild white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 974px;
+    margin: 0 auto;
+    padding-top: 80px
+}
+.news-section .card-list .card{
+    background-color: #FBE9E9;
+    margin-bottom: 70px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50px;
+    text-align: left;
+}
+.news-section .card-list .card img{
+    vertical-align: middle;
+}
+.news-section .card-list .card .card-text{
+    font-size: 18px;
+    color: #4F0000;
+    padding: 18px 0 0 70px;
+    letter-spacing: 2px;
+}
+.news-section .card-list .card .card-text span{
+    display: flex;
+    line-height: 75px;
+    letter-spacing: 2px;
+}
+.news-section .card-list .card .card-text .year{
+    border: 1px solid #644713;
+    display: inline;
+    padding: 6px 15px;
+    border-radius: 28px;
+}

@@ -1,0 +1,26 @@
+.homefooter{
+    background-color: #F4C9C9;
+    background-image: url(img/index/footer/footer2.png);
+    height: 690px;
+}
+.homefooter img{
+    width: 100%;
+    vertical-align: middle;
+}
+.homefooter .footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding-top: 220px;
+}
+.homefooter .footer-info span{
+    font-size: 20px;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.homefooter .text{
+    text-align: center;
+    padding: 80px 0 0 0;
+}

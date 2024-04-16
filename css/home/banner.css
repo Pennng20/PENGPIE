@@ -1,0 +1,36 @@
+.homebanner{
+    width: 100%;
+    background-color: #F4C9C9;
+}
+.homebanner .banner {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+.homebanner .banner .pic{
+    width: 100%;
+    position: relative;
+}
+.homebanner .banner .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.homebanner .banner .text-group{
+    position: absolute;
+    bottom: 120px;
+    right: 220px;
+
+}
+.homebanner .banner .text-group .text{
+    font-size: 60px;
+    margin-left:-150px;
+    color: white;
+    letter-spacing: 6px;
+}
+.homebanner .banner .text-group .text2{
+    font-size: 64px;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 6px;
+    margin-bottom: -20px;
+}

@@ -1,0 +1,88 @@
+.ingredient-section{
+    width: 100%;
+    background-color: #F4C9C9;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.ingredient-section .container .title-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713;
+}
+.ingredient-section .title-info h3{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin: 0;
+    padding-right: 10px;
+    color: #644713;
+}
+.ingredient-section .title-info span{
+    color: #644713;
+}
+.ingredient-section .container .card-group{
+    width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 60px;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.ingredient-section .container .card-group .card{
+    margin: 0 auto;
+    position: relative;
+    padding: 40px 0;
+}
+.ingredient-section .container .card-group .card .pic img{
+    border: 1px ;
+    border-radius: 70px;
+    width: 100%; 
+    height: auto; 
+}
+.ingredient-section .container .card-group .card .text{
+    display: none;
+    width: 480px;
+    font-size: 18px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    text-align: left;
+    position: absolute;
+    top: 136px;
+    left: 175px;
+    background-color: rgb(255, 255, 255,.7);
+    border-radius: 20px;
+    padding: 20px;
+}
+.ingredient-section .container .card-group .card .text span {
+    display: block;
+}
+.ingredient-section .container .card-group .card .label {
+    writing-mode: vertical-rl;
+    letter-spacing: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: -80px;
+    background-color: #FBE9E9;
+    width: 80px;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 1px;
+    border-radius: 20px 0 0 20px;
+}
+.ingredient-section .container .card-group .card:hover > .text{
+    display: block;
+    cursor: pointer;
+}
+.ingredient-section .container .card-group .card:hover > .pic{
+    opacity: .5;
+    transition: 1s;
+    cursor: pointer;
+}
+
+

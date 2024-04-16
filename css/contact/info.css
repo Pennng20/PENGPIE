@@ -1,0 +1,115 @@
+.contact{
+    background-color: #F4C9C9;
+}
+.container{
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.contact .container .title-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713;
+    padding-top:60px;
+}
+.contact .title-info h3{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin: 0;
+    padding-right: 10px;
+    color: #644713;
+}
+.contact .title-info span{
+    color: #644713;
+}
+.contact .container .text {
+    font-size: 18px;
+    padding: 80px 0 100px 0;
+    color: #4F0000;
+}
+.contact .container .bac{
+    width: 1080px;
+    height: 740px;
+    background-color: #FBE9E9;
+    border-radius: 70px;
+}
+.contact .container .list-group{
+    width: 100%;
+    padding:80p 40px;
+    display: flex;
+}
+.contact .container .list-group .list-title{
+    width: 40%;
+}
+.contact .container .list-group .list-title .pic{
+    padding-top: 80px;
+}
+.contact .container .list-group .list-title .title{
+    font-size: 46px;
+    letter-spacing: 2px;
+    padding: 20px 0 220px 0;
+    color: #644713;
+}
+.contact .container .list-group .list-title .num-group span{
+    display: block;
+    text-align: left;
+    padding-left: 120px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #644713;
+}
+.contact .container .list-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .container .list-info .name{
+    display: block;
+    font-size: 18px;
+    color: #644713;
+    line-height: 80px;
+    width: 60%;
+    padding-top: 80px;
+}
+.contact .container .list-info span{
+    display: block;
+}
+label{
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    vertical-align:top;
+    padding: 9px 0;
+    color: #644713;
+}
+label input[type="text"] {
+    border: 1px solid #644713;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.max input[type="text"] {
+    border: 1px solid #644713;
+    border-radius: 12px;
+    padding: 70px 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    vertical-align:top;
+}
+.button input[type="button"] {
+    padding: 6px 18px; 
+    font-size: 16px; 
+    border: 1px solid #644713;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    border-radius: 20px; 
+    cursor: pointer; 
+    margin-left: 100px;
+    margin-top: 40px;
+}

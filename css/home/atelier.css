@@ -1,0 +1,44 @@
+.atelier{
+    background-color: #F4C9C9;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.container{
+    width: 1200px;
+}
+.atelier .container .atelier-info {
+    display: inline-block;
+    border-bottom: 2px solid #644713; 
+    margin: 58px;
+}
+.atelier .atelier-info h3{
+    display: inline;
+    font-size: 40px;
+    padding-bottom: 0px;
+    color: #644713;
+}
+.atelier .atelier-info span{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #644713;
+}
+.atelier .container .item-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.atelier .container .item-list .item{
+    margin: 10px;
+}
+.atelier .container .button-group{
+    display: flex;
+    justify-content: center;
+    padding:70px 0 80px 0;
+}
+.atelier .container .button-atelier{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 6px;
+}
