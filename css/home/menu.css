@@ -42,18 +42,23 @@
 .menu .container .item-list .button-right{
     margin-bottom: 150px;
 }
-.menu .container .button {
-    font-size: 22px;
-    width: 160px;
-    padding: 8px ;
-    background-color: #F4C9C9;
-    margin: auto;
+.menu .container a .button {
+    font-size: 20px;
+    width: 150px;
+    background-color: rgba(255, 191, 191, 0.6);
     border-radius: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+    padding: 15px 0;
+    color: #4F0000;
+    letter-spacing: 2px;
 }
-.menu .container .button a{
+.menu .container a{
     text-decoration: none;
     color: #644713;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu .container .button:hover {
+    background-color: rgb(239, 170, 185);
+    color: #fff;
 }
