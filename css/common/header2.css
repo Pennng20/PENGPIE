@@ -5,7 +5,6 @@
     background-color: #F4C9C9;
 }
 .homeheader .pic{
-    
     position: absolute;
     top: 178px;
 }
@@ -17,13 +16,12 @@
     position: absolute;
     top: 20px;
     width: 100%;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
+    margin-left: -35px;
 }
 .homeheader .Mainmenus .icon{
     position: relative;
     width: 50px;
-
 }
 .homeheader .Mainmenus .icon-logo{
     width: 140px;
@@ -56,4 +54,22 @@
     font-size: 24px;
     text-decoration: none;
     color: #4F0000;
+}
+.homeheader .second {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.homeheader .second .icon .icon-pic{
+    width: 45px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.homeheader .second .icon .icon-pic a{
+    width: 45px;
+    height: 45px;
+}
+.homeheader .second .icon .icon-pic img{
+    width: 100%;
+    vertical-align: middle;
 }
