@@ -79,13 +79,5 @@
     padding-bottom: 60px;
 }
 .product-section .container .page a{
-    font-size: 20px;
-    color: #4F0000;
-    text-align: center;
-    border: 1px solid rebeccapurple;
-    margin:  20px;
-    padding: 6px 10px;
-    background-color: white;
-    text-decoration: none;
-    border-radius: 8px;
+    margin: 18px;
 }
