@@ -1,4 +1,5 @@
 .homeheader{
+    display: flex;
     position: relative;
     width: 100%;
     height: 135px;
@@ -13,13 +14,21 @@
 }
 .homeheader .Mainmenus {
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     top: 10px;
     width: 100%;
     justify-content: space-evenly;
     margin-left: -30px;
 }
 .homeheader .Mainmenus .icon{
+    position: relative;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeheader .Mainmenus .logo{
     position: relative;
     width: 120px;
     display: flex;
@@ -68,4 +77,33 @@
 .homeheader .second .icon .icon-pic img{
     width: 100%;
     vertical-align: middle;
+}
+@media screen and (max-width: 768px) {
+
+    .homeheader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .homeheader .Mainmenus{
+        justify-content: flex-start;
+    }
+    .homeheader .Mainmenus .icon{
+        display: none;
+    }
+    .homeheader .Mainmenus .logo {
+        width: 100px;
+        height: 100px;
+        padding-left: 50px;
+    }
+    .homeheader .Mainmenus .logo img{
+        width: 100%;
+    }
+    .homeheader .pic{
+        display: none;
+    }
+    .homeheader .second {
+        flex-direction: row;
+    }
+
 }
