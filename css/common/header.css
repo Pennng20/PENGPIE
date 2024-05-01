@@ -105,5 +105,63 @@
     .homeheader .second {
         flex-direction: row;
     }
-
 }
+
+    input{
+        display: none;
+    }
+    .main-header{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+    .homeheader .hb{
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 0, 115);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .homeheader .main-nav a{
+        visibility: hidden;
+        display: none
+    }
+    @media screen and (min-width: 768px){
+    .homeheader .hb{
+            display: none;
+        }
+    }
+    .homeheader .hb span{
+        width: 80%;
+        height: 2px;
+        background-color: white;
+    }
+    .homeheader .main-nav{
+        display: none;
+        position: absolute;
+        background-color: #fa0;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    .homeheader .main-nav a{
+        display: block;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        visibility: visible;
+    }
+    .homeheader .main-nav a + a{
+        border-top: 1px solid white;
+    }
+    #menu-switch:checked ~  .main-nav{
+        display: block;
+        z-index: 5;
+    }
+    #menu-switch:checked + .homeheader .hb{
+        background-color: rgb(255, 198, 219);
+    }
