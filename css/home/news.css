@@ -9,6 +9,7 @@
 .news .container .title-info {
     display: inline-block;
     border-bottom: 2px solid #644713; 
+    margin-bottom: 20px;
 }
 .news .title-info h1{
     display: inline;
@@ -68,7 +69,7 @@
     line-height: 26px;
     text-align: left;
 }
-.news .container a .button {
+.news .container .button {
     font-size: 20px;
     width: 150px;
     background-color: rgb(255, 255, 255 ,.6);
@@ -76,6 +77,7 @@
     padding: 15px 0;
     color: #4F0000;
     letter-spacing: 2px;
+    margin-top: -20px;
 }
 .news .container a{
     text-decoration: none;
@@ -97,13 +99,11 @@
         display: inline-block;
         border-bottom: 2px solid #644713; 
         text-align: center;
-        
     }
     .news .title-info h1{
         display: inline;
-        font-size: 20px;
+        font-size: 24px;
         color: #644713;
-        margin: 0 5px;
     }
     .news .title-info span{
         font-size: 16px;
@@ -111,10 +111,14 @@
     }
     .news .item-list{
         display: flex;
-
+        width: 100%;
+        justify-content: center;
     }
-    .news .item-list .item{
-        text-align: center;
+    .news .item-list .item:nth-child(2){
+        display: none;
+    }
+    .news .item-list .item:nth-child(3){
+        display: none;
     }
     .news .item-list .item .item-pic{
         padding-bottom:50px ;
@@ -176,4 +180,4 @@
         background-color: rgb(239, 170, 185);
         color: #fff;
     }
-}
+} 
