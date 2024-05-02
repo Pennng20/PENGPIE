@@ -90,7 +90,7 @@
 }
 @media screen and (max-width: 768px) {
     .container{
-        width: 100%;
+        width: 62.5%;
     }
     .news .container .title-info {
         margin: 60px auto 20px auto;
