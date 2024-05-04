@@ -11,7 +11,7 @@
     margin: 58px;
     padding-top: 20px;
 }
-.about .about-info h3{
+.about .about-info h1{
     display: inline;
     font-size: 40px;
     padding-bottom: 0px;
@@ -63,5 +63,62 @@
 @media screen and (max-width: 768px) {
     .container{
         width: 62.5%;
+    }
+    .about .container .about-info {
+        margin: 60px auto 20px auto;
+        display: inline-block;
+        border-bottom: 2px solid #644713; 
+        text-align: center;
+    }
+    .about .about-info h1{
+        display: inline;
+        font-size: 24px;
+        color: #644713;
+    }
+    .about .about-info span{
+        font-size: 16px;
+        color: #644713;
+    }
+    .about .item-list{
+        display: flex;
+        width: 100%;
+    }
+    .about .container .item-list .item{
+        display: block;
+    }
+    .about .item-list .item:nth-child(2){
+        display: none;
+    }
+    .about .item-list .item .item-pic{
+        padding:50px 20px 50px 40px;
+        width: 340px;
+    }
+    .about .item-list .item .item-pic img{
+        width: 100% ;
+        display: block;
+    }
+    .about .item-list .item .item-text{
+        padding-bottom:100px ;
+        display: block;
+        justify-content: center;
+        color: #4F0000;
+        padding-bottom: 60px;
+        font-size: 16px;
+    }
+    .about .container a .button {
+        font-size: 20px;
+        width: 150px;
+        background-color: rgb(255, 255, 255 ,.6);
+        border-radius: 50px;
+        padding: 15px 0;
+        color: #4F0000;
+        letter-spacing: 2px;
+    }
+    .about .container a{
+        text-decoration: none;
+        color: #644713;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
