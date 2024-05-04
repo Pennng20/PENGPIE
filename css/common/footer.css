@@ -75,4 +75,14 @@
         line-height: 30px;
         letter-spacing: 1px;
     }
+    .homefooter .footer-info{
+        margin: 0 auto;
+    }
+    .homefooter .footer-info .logo{
+        padding: 40px 154px;
+        width: 120px;
+    }
+    .homefooter .footer-info .logo img{
+        width: 100%;
+    }
 }
