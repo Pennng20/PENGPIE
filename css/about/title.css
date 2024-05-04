@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 430px){
     .about-section .background{
-        height: 2140px;
+        height: 2200px;
     }
     .about-section .title-text .big{ 
         font-size: 28px;
@@ -122,6 +122,7 @@
         line-height: 30px;
         font-size: 16px;
         color: #4F0000;
+        text-align: start;
     }
     .about-section .cards .item-list .item-texts span{
         letter-spacing: 2px;
