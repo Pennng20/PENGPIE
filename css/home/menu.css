@@ -113,7 +113,7 @@
     .menu .container a .button {
         font-size: 20px;
         width: 150px;
-        background-color: rgb(255, 255, 255 ,.6);
+        background-color: rgba(255, 191, 191, 0.6);
         border-radius: 50px;
         padding: 15px 0;
         color: #4F0000;
@@ -129,7 +129,7 @@
 }
 @media screen and (max-width: 430px) {
     .menu .container .item-list .item-pic{
-        width: 250px;
+        width: 220px;
     }
     .menu .container .item-list .item-pic img{
         width: 100%
