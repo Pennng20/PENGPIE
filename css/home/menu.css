@@ -44,7 +44,7 @@
     margin-bottom: 150px;
     cursor: pointer;
 }
-.menu .container a .button {
+.menu .container .button {
     font-size: 20px;
     width: 150px;
     background-color: rgba(255, 191, 191, 0.6);
@@ -125,5 +125,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 430px) {
+    .menu .container .item-list .item-pic{
+        width: 250px;
+    }
+    .menu .container .item-list .item-pic img{
+        width: 100%
+    }
+    .menu .container .item-list .button-left img{
+        width: 60px;
+    }
+    .menu .container .item-list .button-right img{
+        width: 60px;
     }
 }
