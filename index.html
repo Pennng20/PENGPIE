@@ -1,108 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pengpie烘焙甜點店</title>
     <link rel="stylesheet" href="css/home/index.css">
-    <style>
-    @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    body{font-family: "cwTeXYen", sans-serif;}
-    .homefooter{
-        background-image: url(img/index/footer/bac.png);
-    }
-    @media screen and (max-width: 768px) {
-        .homefooter{
-        background-image:none;
+    <style>
+        @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+        body {
+            font-family: "cwTeXYen", sans-serif;
         }
-    }
+
+        .homefooter {
+            background-image: url(img/index/footer/bac.png);
+        }
+
+        @media screen and (max-width: 768px) {
+            .homefooter {
+                background-image: none;
+            }
+        }
     </style>
 </head>
+
 <body>
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 200,
+        });
+        AOS.init({
+            anchorPlacement: 'top-bottom', 
+        });
+    </script>
+
     <!-- 導覽列 -->
     <header class="homeheader">
         <div class="pic">
             <img src="img/index/header/bac.png" alt="導覽背景">
         </div>
         <div class="Mainmenus">
-            <div class="icon">
-                <a href="about.html"><div class="icon-pic">
-                    <img src="img/index/header/chef.png" alt="關於我們">
-                </div>
-                <div class="icon-text">
-                    <a href="about.html">關於我們</a>
-                </div></a>
+            <div class="icon" data-aos="zoom-in" data-aos-anchor=".trigger-logo">
+                <div class="trigger-logo"></div>
+                <a href="about.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/chef.png" alt="關於我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="about.html">關於我們</a>
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="news.html"><div class="icon-pic">
-                    <img src="img/index/header/new2.png" alt="最新消息">
-                </div>
-                <div class="icon-text">
-                    <a href="news.html">最新消息</a>
-                </div></a>
+                <a href="news.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/new2.png" alt="最新消息">
+                    </div>
+                    <div class="icon-text">
+                        <a href="news.html">最新消息</a>
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="Ingredient.html"><div class="icon-pic">
-                    <img src="img/index/header/milk2.png" alt="原料介紹">
-                </div>
-                <div class="icon-text">
-                    <a href="Ingredient.html">原料介紹</a>
-                </div></a>
+                <a href="Ingredient.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/milk2.png" alt="原料介紹">
+                    </div>
+                    <div class="icon-text">
+                        <a href="Ingredient.html">原料介紹</a>
+                    </div>
+                </a>
             </div>
             <div class="logo">
-                <a href="index.html"><div class="icon-logo">
-                    <img src="img/index/header/s-logo.png" alt="logo">
-                </div></a>
+                <a href="index.html">
+                    <div class="icon-logo">
+                        <img src="img/index/header/s-logo.png" alt="logo">
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="product.html"><div class="icon-pic">
-                    <img src="img/index/header//cake (2).png" alt="商品列表">
-                </div>
-                <div class="icon-text">
-                    <a href="product.html">商品列表</a>
-                </div></a>
+                <a href="product.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header//cake (2).png" alt="商品列表">
+                    </div>
+                    <div class="icon-text">
+                        <a href="product.html">商品列表</a>
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="contact.html"><div class="icon-pic">
-                    <img src="img/index/header/email2.png" alt="聯絡我們">
-                </div>
-                <div class="icon-text">
-                    <a href="contact.html">聯絡我們</a>
-                </div></a>
+                <a href="contact.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/email2.png" alt="聯絡我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="contact.html">聯絡我們</a>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="second">
-            <div class="icon" >
+            <div class="icon">
                 <div class="icon-pic">
-                    <a href="login.html"><img   src="img/index/header/login3.png" alt="登入"></a>
+                    <a href="login.html"><img src="img/index/header/login3.png" alt="登入"></a>
                 </div>
             </div>
             <div class="icon">
                 <div class="icon-pic">
-                    <a href="index.html"><img   src="img/index/header/shopping3.png" alt="購物車"></a>
+                    <a href="index.html"><img src="img/index/header/shopping3.png" alt="購物車"></a>
                 </div>
             </div>
         </div>
         <input type="checkbox" name="" id="menu-switch">
-            <!-- <div class="main-header"> -->
-                <label for="menu-switch" class="hb">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-                <div class="main-nav">
-                    <a href="#">關於我們</a>
-                    <a href="#">最新消息</a>
-                    <a href="#">原料介紹</a>
-                    <a href="#">商品列表</a>
-                    <a href="#">聯絡我們</a>
-                </div>
-            <!-- </div> -->
+        <!-- <div class="main-header"> -->
+        <label for="menu-switch" class="hb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="main-nav">
+            <a href="#">關於我們</a>
+            <a href="#">最新消息</a>
+            <a href="#">原料介紹</a>
+            <a href="#">商品列表</a>
+            <a href="#">聯絡我們</a>
+        </div>
+        <!-- </div> -->
     </header>
     <!-- 首頁大圖 -->
     <section class="homebanner">
-        <div class="banner">
+        <div class="banner" data-aos="fade-up" data-aos-anchor-placement="top-bottom" translate="0.3s">
             <div class="pic">
                 <img src="img/index/banner/banner.png" alt="">
             </div>
@@ -160,10 +192,11 @@
                 </div>
             </div>
             <a href="news.html">
-            <div class="button">
-                More
-                <span>➜</span>
-            </div></a>
+                <div class="button">
+                    More
+                    <span>➜</span>
+                </div>
+            </a>
         </div>
     </section>
     <!-- 首頁關於我們 -->
@@ -178,13 +211,15 @@
                         <img src="img/index/about/about.png" alt="">
                     </div>
                     <div class="item-text">
-                        <div class="text">PENGPIE重視能夠一同分享的溫暖感受，結合生活土地上的元素，使用當季新鮮的材料，於傳統中解構更新，呈現鮮明的季節時令感，創造一個能夠滿足現代人們對於甜品的需求與想像的甜點城堡。</div>
+                        <div class="text">
+                            PENGPIE重視能夠一同分享的溫暖感受，結合生活土地上的元素，使用當季新鮮的材料，於傳統中解構更新，呈現鮮明的季節時令感，創造一個能夠滿足現代人們對於甜品的需求與想像的甜點城堡。
+                        </div>
                     </div>
                 </div>
                 <div class="item blue">
                     <div class="item-text">
                         <div class="text">以前甜點都是咖啡店中飲品的配角，我們沒有特地去甜點店吃蛋糕這樣的習慣與環境，因此非常想成立以
-                        「甜點」為主角的店。</div>
+                            「甜點」為主角的店。</div>
                     </div>
                     <div class="item-pic">
                         <img src="img/index/about/about2.png" alt="">
@@ -194,8 +229,9 @@
             <a href="about.html">
                 <div class="button">
                     More
-                <span>➜</span>
-            </div></a>
+                    <span>➜</span>
+                </div>
+            </a>
         </div>
     </section>
     <!-- 首頁菜單 -->
@@ -242,40 +278,43 @@
             <a href="product.html">
                 <div class="button">
                     More
-                <span>➜</span>
-            </div></a>
+                    <span>➜</span>
+                </div>
+            </a>
         </div>
     </section>
     <!-- 首頁工作室 -->
     <section class="atelier">
-            <div class="container">
-                <div class="atelier-info">
-                    <h2>工作室</h2><span>ATELIER</span>
-                </div>
-                <div class="item-list">
-                    <div class="item">
-                        <div class="item-pic">
-                            <img src="img/index/atelier/atelier.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item-pic">
-                            <img src="img/index/atelier/atelier2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="item-pic">
-                            <img src="img/index/atelier/atelier3.png" alt="">
-                        </div>
+        <div class="container">
+            <div class="atelier-info">
+                <h2>工作室</h2><span>ATELIER</span>
+            </div>
+            <div class="item-list">
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/atelier/atelier.png" alt="">
                     </div>
                 </div>
-                <div class="button-group">
-                    <div class="button-atelier">
-                    </div>                    <div class="button-atelier">
-                    </div>                    <div class="button-atelier">
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/atelier/atelier2.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/index/atelier/atelier3.png" alt="">
                     </div>
                 </div>
             </div>
+            <div class="button-group">
+                <div class="button-atelier">
+                </div>
+                <div class="button-atelier">
+                </div>
+                <div class="button-atelier">
+                </div>
+            </div>
+        </div>
     </section>
     <!-- 頁尾 -->
     <footer>
@@ -290,15 +329,19 @@
                     <span>OPEN :12:00〜19:00</span>
                     <span>CLOSE : 每周一</span>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.933864159484!2d121.3038230759253!3d25.00236313956365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681faa9adc186f%3A0x5f52649fa3a8d5e5!2zMzMw5qGD5ZyS5biC5qGD5ZyS5Y2A5Lit5q2j6LevNTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1713074065040!5m2!1szh-TW!2stw" width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.933864159484!2d121.3038230759253!3d25.00236313956365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681faa9adc186f%3A0x5f52649fa3a8d5e5!2zMzMw5qGD5ZyS5biC5qGD5ZyS5Y2A5Lit5q2j6LevNTAw6Jmf!5e0!3m2!1szh-TW!2stw!4v1713074065040!5m2!1szh-TW!2stw"
+                    width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
-            </div>                
-            <div class="text">Copyright©palette All Rights Reserved. 本網站為緯育TibaMe前端工程師班第xx期學員專題作品，本平台僅供學習、展示之用。</div>   
-        </div>        
+            </div>
+            <div class="text">Copyright©palette All Rights Reserved. 本網站為緯育TibaMe前端工程師班第xx期學員專題作品，本平台僅供學習、展示之用。</div>
+        </div>
     </footer>
     <!-- top按鈕 -->
     <div class="icon-top">
         <a href="#"><img src="img/index/top.png" alt="icon-top"></a>
     </div>
 </body>
+
 </html>

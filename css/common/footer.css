@@ -60,7 +60,7 @@
 @media screen and (max-width: 430px) {
     .homefooter{
         background-color: #FBE9E9;
-        height: 700px;
+        height: 650px;
     }
     .homefooter .footer-info iframe{
         display: block;
@@ -80,7 +80,7 @@
         margin: 0 auto;
     }
     .homefooter .footer-info .logo{
-        padding: 40px 137px;
+        padding: 40px 153px;
         width: 120px;
     }
     .homefooter .footer-info .logo img{
