@@ -67,7 +67,12 @@
         align-items: center;
     }
     .about .container .item-list .item .item-pic{
-        width: 300px;
+        display: block;
+    }
+    .about .container .item-list .item .item-pic img{
+        padding-left: 18px;
+        width: 280px;
+        height: 270px;
     }
     .about .container .item-list .item .item-text{
         display: block;
