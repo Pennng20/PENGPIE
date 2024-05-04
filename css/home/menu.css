@@ -11,7 +11,7 @@
     border-bottom: 2px solid #644713; 
     margin: 58px;
 }
-.menu .menu-info h3{
+.menu .menu-info h2{
     display: inline;
     font-size: 40px;
     padding-bottom: 0px;
@@ -38,9 +38,11 @@
 }
 .menu .container .item-list .button-left{
     margin-bottom: 150px;
+    cursor: pointer;
 }
 .menu .container .item-list .button-right{
     margin-bottom: 150px;
+    cursor: pointer;
 }
 .menu .container a .button {
     font-size: 20px;
@@ -67,5 +69,61 @@
 @media screen and (max-width: 768px) {
     .container{
         width: 62.5%;
+    }
+    .menu .container .menu-info {
+        margin: 60px auto 20px auto;
+        display: inline-block;
+        border-bottom: 2px solid #644713; 
+        text-align: center;
+    }
+    .menu .menu-info h2{
+        display: inline;
+        font-size: 24px;
+        color: #644713;
+    }
+    .menu .menu-info span{
+        font-size: 16px;
+        color: #644713;
+    }
+    .menu .container .item-list{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .menu .item-list .item:nth-child(2){
+        display: none;
+    }
+    .menu .item-list .item:nth-child(3){
+        display: none;
+    }
+    .menu .container .item-list .item-pic{
+        padding:50px 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+    }
+    .menu .container .item-list .button-left{
+        /* margin-bottom: 150px; */
+        cursor: pointer;
+    }
+    .menu .container .item-list .button-right{
+        /* margin-bottom: 150px; */
+        cursor: pointer;
+    }
+    .menu .container a .button {
+        font-size: 20px;
+        width: 150px;
+        background-color: rgb(255, 255, 255 ,.6);
+        border-radius: 50px;
+        padding: 15px 0;
+        color: #4F0000;
+        letter-spacing: 2px;
+    }
+    .menu .container a{
+        text-decoration: none;
+        color: #644713;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
