@@ -11,3 +11,9 @@
     width: 100%;
     vertical-align: middle;
 }
+@media screen and (max-width: 430px) {
+    .banner .banner-pic{
+        width: 1690px;
+        padding-bottom: 50px ;
+    }
+}
