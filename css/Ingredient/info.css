@@ -141,7 +141,7 @@
         width: 62.5%;
     }
     .ingredient-section .container .card-group{
-        width: 330px;
+        width: 310px;
         display: flex;
         padding-top: 40px;
         flex-direction: column;
@@ -160,8 +160,8 @@
         line-height: 20px;
         text-align: left;
         position: absolute;
-        top: 15%;
-        left: 9%;
+        top: 32px;
+        left: 17px;
         background-color: rgb(255, 255, 255);
         border-radius: 30px;
         padding: 14px 16px;
