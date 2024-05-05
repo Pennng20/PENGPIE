@@ -136,7 +136,7 @@
         padding: 30px;
     }
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 430px) {
     .container{
         width: 62.5%;
     }
@@ -177,7 +177,7 @@
         letter-spacing: 5px;
         font-size: 14px;
         position: absolute;
-        top: 60px;
+        top: 82px;
         left: -50px;
         background-color: #FBE9E9;
         width: 50px;
