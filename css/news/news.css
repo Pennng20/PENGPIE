@@ -42,17 +42,19 @@
 }
 .news-section .card-list .card img{
     vertical-align: middle;
+    object-fit: cover;
 }
 .news-section .card-list .card .card-text{
     font-size: 18px;
     color: #4F0000;
     padding: 18px 0 0 70px;
     letter-spacing: 2px;
+    line-height: 26px;
 }
 .news-section .card-list .card .card-text span{
     display: flex;
-    line-height: 75px;
-    letter-spacing: 2px;
+    line-height: 60px;
+    letter-spacing: 1px;
 }
 .news-section .card-list .card .card-text .year{
     border: 1px solid #644713;
@@ -117,7 +119,7 @@
         font-size: 14px;
     }
     .news-section .container .card-list{
-        padding-top: 50px;
+        padding-top: 60px;
     }
 }
 @media screen and (max-width: 430px) {

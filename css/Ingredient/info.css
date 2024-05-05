@@ -12,7 +12,7 @@
     display: inline-block;
     border-bottom: 2px solid #644713;
 }
-.ingredient-section .title-info h3{
+.ingredient-section .title-info h2{
     display: inline;
     font-size: 40px;
     padding-bottom: 0px;
@@ -44,17 +44,22 @@
 }
 .ingredient-section .container .card-group .card .text{
     display: none;
-    width: 480px;
+    width: 500px;
     font-size: 18px;
-    line-height: 45px;
+    line-height: 36px;
     letter-spacing: 1px;
     text-align: left;
     position: absolute;
-    top: 136px;
-    left: 175px;
+    top: 156px;
+    left: 160px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 20px;
+    padding: 30px;
+}
+.ingredient-section .container .card-group .card .text  span:nth-child(1) {
+    font-size: 24px; 
+    color: #4F0000; 
+    font-weight:400;
 }
 .ingredient-section .container .card-group .card .text span {
     display: block;
@@ -84,5 +89,106 @@
     transition: 1s;
     cursor: pointer;
 }
-
+@media screen and (max-width: 768px) {
+    .container{
+        width: 62.5%;
+    }
+    .ingredient-section .container .title-info {
+        display: inline-block;
+        border-bottom: 2px solid #644713; 
+        text-align: center;
+    }
+    .ingredient-section .title-info h2{
+        display: inline;
+        font-size: 24px;
+        color: #644713;
+    }
+    .ingredient-section .title-info span{
+        font-size: 16px;
+        color: #644713;
+    }
+    .ingredient-section .container .card-group{
+        width: 560px;
+        display: flex;
+        margin: 0 auto;
+        padding-top: 50px;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-bottom: 50px;
+    }
+    .ingredient-section .container .card-group .card{
+        margin: 0 auto;
+        position: relative;
+        padding: 30px 0;
+    }
+    .ingredient-section .container .card-group .card .text{
+        display: none;
+        width: 400px;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-align: left;
+        position: absolute;
+        top: 17%;
+        left: 50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .container{
+        width: 62.5%;
+    }
+    .ingredient-section .container .card-group{
+        width: 330px;
+        display: flex;
+        padding-top: 40px;
+        flex-direction: column;
+        padding-bottom: 40px;
+        border-radius: 5px;
+    }
+    .ingredient-section .container .card-group .card{
+        margin: 0 auto;
+        position: relative;
+        padding: 30px 0;
+    }
+    .ingredient-section .container .card-group .card .text {
+        display: none;
+        width: 240px;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: left;
+        position: absolute;
+        top: 15%;
+        left: 9%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 30px;
+        padding: 14px 16px;
+    }
+    .ingredient-section .container .card-group .card .pic img{
+        border: 1px ;
+        border-radius: 30px;
+        width: 100%; 
+        height: auto; 
+    }
+    .ingredient-section .container .card-group .card .label {
+        writing-mode: vertical-rl;
+        letter-spacing: 5px;
+        font-size: 14px;
+        position: absolute;
+        top: 60px;
+        left: -50px;
+        background-color: #FBE9E9;
+        width: 50px;
+        padding: 10px 0;
+        display: flex; 
+        border-radius: 20px 0 0 20px;
+    }
+    .ingredient-section .container .card-group .card .text  span:nth-child(1) {
+        font-size: 12px; 
+        color: #4F0000; 
+        font: weight 600px;
+    }
+}
 

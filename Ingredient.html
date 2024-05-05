@@ -11,6 +11,11 @@
     .homefooter{
         background-image: url(img/index/footer/bac.png);
     }
+    @media screen and (max-width: 768px) {
+            .homefooter {
+                background-image: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -20,68 +25,93 @@
             <img src="img/about/header/bac2.png" alt="導覽背景">
         </div>
         <div class="Mainmenus">
-            <div class="icon">
-                <a href="about.html"><div class="icon-pic">
-                    <img src="img/index/header/chef.png" alt="關於我們">
-                </div>
-                <div class="icon-text">
-                    <a href="about.html">關於我們</a>
-                </div></a>
+            <div class="icon" data-aos="zoom-in" data-aos-anchor=".trigger-logo">
+                <div class="trigger-logo"></div>
+                <a href="about.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/chef.png" alt="關於我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="about.html">關於我們</a>
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="news.html"><div class="icon-pic">
-                    <img src="img/index/header/new2.png" alt="最新消息">
-                </div>
-                <div class="icon-text">
-                    <a href="news.html">最新消息</a>
-                </div></a>
+                <a href="news.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/new2.png" alt="最新消息">
+                    </div>
+                    <div class="icon-text">
+                        <a href="news.html">最新消息</a>
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="Ingredient.html"><div class="icon-pic">
-                    <img src="img/index/header/milk2.png" alt="原料介紹">
-                </div>
-                <div class="icon-text">
-                    <a href="Ingredient.html">原料介紹</a>
-                </div></a>
+                <a href="Ingredient.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/milk2.png" alt="原料介紹">
+                    </div>
+                    <div class="icon-text">
+                        <a href="Ingredient.html">原料介紹</a>
+                    </div>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <div class="icon-logo">
+                        <img src="img/index/header/s-logo.png" alt="logo">
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="index.html"><div class="icon-logo">
-                    <img src="img/index/header/s-logo.png" alt="logo">
-                </div></a>
+                <a href="product.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header//cake (2).png" alt="商品列表">
+                    </div>
+                    <div class="icon-text">
+                        <a href="product.html">商品列表</a>
+                    </div>
+                </a>
             </div>
             <div class="icon">
-                <a href="product.html"><div class="icon-pic">
-                    <img src="img/index/header//cake (2).png" alt="商品列表">
-                </div>
-                <div class="icon-text">
-                    <a href="product.html">商品列表</a>
-                </div></a>
-            </div>
-            <div class="icon">
-                <a href="contact.html"><div class="icon-pic">
-                    <img src="img/index/header/email2.png" alt="聯絡我們">
-                </div>
-                <div class="icon-text">
-                    <a href="contact.html">聯絡我們</a>
-                </div></a>
+                <a href="contact.html">
+                    <div class="icon-pic">
+                        <img src="img/index/header/email2.png" alt="聯絡我們">
+                    </div>
+                    <div class="icon-text">
+                        <a href="contact.html">聯絡我們</a>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="second">
-            <div class="icon" >
+            <div class="icon">
                 <div class="icon-pic">
-                    <a href="login.html"><img   src="img/index/header/login3.png" alt="登入"></a>
+                    <a href="login.html"><img src="img/index/header/login3.png" alt="登入"></a>
                 </div>
             </div>
             <div class="icon">
                 <div class="icon-pic">
-                    <a href="index.html"><img   src="img/index/header/shopping3.png" alt="購物車"></a>
-                </div>
-                <div class="icon-text">
-                    <a href="#"></a>
+                    <a href="index.html"><img src="img/index/header/shopping3.png" alt="購物車"></a>
                 </div>
             </div>
         </div>
-        </header>
+        <input type="checkbox" name="" id="menu-switch">
+        <!-- <div class="main-header"> -->
+        <label for="menu-switch" class="hb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="main-nav">
+            <a href="#">關於我們</a>
+            <a href="#">最新消息</a>
+            <a href="#">原料介紹</a>
+            <a href="#">商品列表</a>
+            <a href="#">聯絡我們</a>
+        </div>
+        <!-- </div> -->
+    </header>
     <!-- 大圖 -->
     <div class="banner">
         <div class="banner-pic">
@@ -92,7 +122,7 @@
     <section class="ingredient-section"> 
         <div class="container">
             <div class="title-info">
-                <h3>原料介紹</h3><span>Ingredient</span>
+                <h2>原料介紹</h2><span>Ingredient</span>
             </div>
             <div class="card-group">
                 <div class="card">
@@ -100,7 +130,7 @@
                         <img src="img/Ingredient/milk.png" alt="">
                     </div>
                     <div class="text">
-                        <span style="font-size: 22px; color: #4F0000; font-weight:400;" >牧場直送鮮奶</span>
+                        <span>牧場直送鮮奶</span>
                         <span>我們的蛋糕皆使用牧場直送鮮奶，讓您可以享受到原汁原味的牛奶，不經過長途運輸、不添加任何防腐劑或調味劑，安全美味又健康!鮮奶帶來的豐富奶香和濃郁口感，不僅能讓蛋糕口味更加濃郁，也能為整個製作過程增添樂趣和挑戰。鮮奶的添加可以有效地調節整個蛋糕的口感和結構，使其更加均勻和美味!</span>
                     </div>
                     <div class="label">
@@ -112,8 +142,8 @@
                         <img src="img/Ingredient/egg.png" alt="">
                     </div>
                     <div class="text">
-                        <span style="font-size: 22px; color: #4F0000; font-weight:400;">有機健康雞蛋</span>
-                        <span>我們使用有機雞蛋，來自於健康快樂的家禽，在寬敞的放養場中自由生活，享受新鲜空氣和優質的有機飼料，不使用任何化學劑和生長激素。有機雞蛋富含豐富的營養，每顆都充滿了蛋白質、维生素和礦物質。雞蛋是製作美味蛋糕、餅乾和各種糕點的關鍵食材之一，其優質的蛋白質和豐富的營養價值使其成為廚房中不可或缺的寶藏。</span>
+                        <span>有機健康雞蛋</span>
+                        <span>我們使用來自於健康快樂的家禽，在寬敞的放養場中自由生活，享受新鲜空氣有機飼料，不使用任何化學劑和生長激素。有機雞蛋富含豐富的營養，每顆都充滿了蛋白質、维生素和礦物質。雞蛋是製作美味蛋糕、餅乾和各種糕點的關鍵食材之一，其優質的蛋白質和豐富的營養價值使其成為廚房中不可或缺的寶藏。</span>
                     </div>
                     <div class="label">
                         <span>有機雞蛋</span>
@@ -124,7 +154,7 @@
                             <img src="img/Ingredient/butter.png" alt="">
                         </div>
                         <div class="text">
-                            <span style="font-size: 22px; color: #4F0000; font-weight:400;" >高品質鮮奶油</span>
+                            <span>高品質鮮奶油</span>
                             <span>我們選用的高級奶油是由優質牛奶經過提煉而成，口感細膩，香濃誘人。我們致力於提供最高品質的奶油，因此我們嚴格採用新鮮牛奶為原料，並採用傳統工藝和先進技術進行加工。無論是搭配甜點、水果，還是用於烹飪和烘焙，我們的高級配料都能為您的美味佳餚增添無限的風味和口感。細膩吸引力。</span>
                         </div>
                     <div class="label">
