@@ -136,7 +136,7 @@
         padding: 30px;
     }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 460px) {
     .container{
         width: 62.5%;
     }
