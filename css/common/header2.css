@@ -98,10 +98,9 @@
         display: none;
     }
     .homeheader .Mainmenus .logo {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         padding-left: 50px;
-        
     }
     .homeheader .Mainmenus .logo img{
         width: 100%;
