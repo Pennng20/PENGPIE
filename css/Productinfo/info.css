@@ -3,7 +3,7 @@
 }
 .info .container{
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 150px;
     overflow: hidden;
 }
@@ -195,6 +195,7 @@ input[type="date"] {
 
 @media screen and (max-width: 768px) {
     .info .container{
+        margin: auto;
         width: 62.5%;
         padding-top: 60px;
         overflow:unset;
@@ -206,20 +207,25 @@ input[type="date"] {
         padding: 0;
     }
     .info .container .bigpic{
-        width: 480px;
+        width: 100%;
         border: 1px ;
         border-radius: 50px;
         cursor: pointer;
     }
     .info .container .bigpic img{
         width: 100%;
+        vertical-align: middle;
+        object-fit: cover;
     }
     .info .container .smallpic {
-        width:480px;
+        width: 100%;
         display: flex;
         padding: 40px 0;
     }
     .info .container .smallpic img{
+        width: 100%;
+        vertical-align: middle;
+        object-fit: cover;
         border: 1px ;
         border-radius: 20px;
         cursor: pointer;
@@ -401,7 +407,8 @@ input[type="date"] {
 }
 @media screen and (max-width: 430px) {
     .info .container{
-        width: 62.5%;
+        margin: auto;
+        width: 75%;
         padding-top: 60px;
         overflow:unset;
     }
@@ -412,21 +419,26 @@ input[type="date"] {
         padding: 0;
     }
     .info .container .bigpic{
-        width: 280px;
+        width: 100%;
         border: 1px ;
         border-radius: 50px;
         cursor: pointer;
     }
     .info .container .bigpic img{
         width: 100%;
+        vertical-align: middle;
+        object-fit: cover;
     }
     .info .container .smallpic {
-        width:280px;
+        width: 100%;
         display: flex;
         padding: 30px 0;
+        gap: 20px;
     }
     .info .container .smallpic img{
-        width: 85px;
+        width: 100%;
+        vertical-align: middle;
+        object-fit: cover;
         padding-left: 2px;
         border: 1px ;
         border-radius: 20px;
