@@ -115,19 +115,45 @@
 .problem .container{
     width: 900px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 .problem .container .title{
     font-size: 32px;
     color: #4F0000;
     letter-spacing: 1px;
     text-align: center;
-    padding: 50px 0px;
+    padding: 70px 0px;
 }
-.problem .container .answer span{
+.problem .container .qa-card{
     display: block;
+    width: 900px;
+    position: relative;
+}
+.problem .container .qa-card .question{
+    display: block;
+    font-size: 18px;
+    padding: 20px 20px;
     letter-spacing: 1px;
-    line-height: 45px;
+    background-color: #FFFFFF;
+}
+.problem .container .qa-card .answer{
+    display: block;
+    font-size: 18px;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    background-color: #FBE9E9;
+    line-height: 30px;
+}
+.problem .container .qa-card .pic{
+    width: 36px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.problem .container .qa-card .pic img{
+    width: 100%;
 }
 option{
     background-color: #ffefef;
@@ -138,22 +164,22 @@ option{
 }
 select {
     padding: 10px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #717171; 
     border-radius: 20px; 
     background-color: #ffffff; 
-    width: 150px; 
-    text-align: center;
+    width: 160px; 
     margin-left: 30px;
+    text-align: start;
 }
 input[type="date"] {
-    padding: 8px; 
+    padding: 7px; 
     font-size: 16px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #717171; 
+
     border-radius: 20px; 
     background-color: #fff; 
-    width: 150px;
+    width: 144px;
     margin-left: 35px;
-    text-align: center;
 }
 .botton input[type="button"] {
     padding: 10px 20px; 
@@ -161,25 +187,29 @@ input[type="date"] {
     border: none; 
     border-radius: 20px; 
     cursor: pointer;
-    border: 1px solid #ccc; 
+    border: 1px solid #717171; 
     background-color: #fff; 
 }
+
+
+
 @media screen and (max-width: 768px) {
+    .info{
+
+    }
     .info .container{
         width: 62.5%;
-        margin: auto;
         padding-top: 60px;
         overflow:unset;
     }
     .info .container .pic-group{
         width: 100%;
         float: none;
-        /* display: block; */
-        /* text-align: center; */
         margin:  0 auto;
+        padding: 0;
     }
     .info .container .bigpic{
-        width: 500px;
+        width: 480px;
         border: 1px ;
         border-radius: 50px;
         cursor: pointer;
@@ -188,7 +218,7 @@ input[type="date"] {
         width: 100%;
     }
     .info .container .smallpic {
-        width: 500px;
+        width:480px;
         display: flex;
         padding: 40px 0;
     }
@@ -199,10 +229,10 @@ input[type="date"] {
     }
     .info .container .text-group{
         float: none; 
-        width: 627px;
+        width: 480px;
     }
     .info .container .text-group .title{
-        font-size: 30px;
+        font-size: 24px;
         color: #644713;
         letter-spacing: 2px;
         padding-bottom: 30px;
@@ -213,5 +243,162 @@ input[type="date"] {
         letter-spacing: 1px;
         line-height: 20px;
         padding-bottom: 15px;
+    }
+    .info .container .text-group .work span + span{
+        border-bottom: 1px solid #4F0000;
+    }
+    .info .container .text-group .food{
+        display: block;
+        color: #4F0000;
+        letter-spacing: 1px;
+        line-height: 30px;
+        border-bottom: 1px solid #4F0000;
+        padding: 15px 0;
+    }
+    .info .container .text-group .shop{
+        color: #4F0000;
+        display: flex;
+    }
+    .info .container .text-group .shop .item{
+        display: flex;
+        flex-direction: column;
+        line-height: 60px;
+        padding: 20px 0;
+        letter-spacing: 1px;
+    }
+    .info .container .text-group .shop .choose{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        letter-spacing: 1px;
+        padding-left: 80px ;
+        font-size: 14px;
+    }
+    .info .container .text-group .shop .choose > span{
+        border: 1px solid #4F0000;
+        border-radius: 50px;
+        padding: 0px 15px;
+        margin-bottom: 8px;
+    }
+    .info .container .price span{
+        display: block;
+        color: #4F0000;
+        border-top: 1px solid#4F0000;
+        padding: 20px 0 20px 0;
+    }
+    .info .container .price .big{
+        font-size: 18px;
+        color: #4F0000;
+        letter-spacing: 1px;
+    }
+    .info .container .botton{
+        display: flex;
+        font-size: 18px;
+        justify-content: space-evenly;
+        padding: 50px 0 80px 0;
+    }
+    .info .container .botton .buy{
+        border:1px solid #4F0000;
+        padding: 6px 20px;
+        border-radius: 50px;
+    }
+    .info .container .botton .car{
+        border:1px solid #4F0000;
+        padding: 6px 30px;
+        border-radius: 50px;
+    }
+    .problem{
+        background-color: #F4C9C9;
+    }
+    .problem .container{
+        width: 480px;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    .problem .container .title{
+        font-size: 32px;
+        color: #4F0000;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .problem .container .answer span{
+        display: block;
+        letter-spacing: 1px;
+        line-height: 45px;
+    }
+    option{
+        background-color: #ffefef;
+        border: none; 
+        cursor: pointer;
+        text-align: center;
+        font-size: 10px; 
+    }
+    select {
+        padding: 10px; 
+        border: 1px solid #757575; 
+        border-radius: 20px; 
+        background-color: #ffffff; 
+        width: 170px; 
+        text-align: center;
+        margin-left: 30px;
+    }
+    input[type="date"] {
+        width: 154px;
+        border: 1px solid #757575; 
+    }
+    .botton input[type="button"] {
+        padding: 10px px; 
+        font-size: 14px; 
+        border-radius: 20px; 
+        cursor: pointer;
+        border: 1px solid #757575; 
+        background-color: #fff; 
+    }
+    .problem{
+        background-color: #F4C9C9;
+    }
+    .problem .container{
+        width: 660px;
+        margin: 0 auto;
+        padding-bottom: 90px;
+        padding-top: 20px;
+    }
+    .problem .container .title{
+        font-size: 32px;
+        color: #4F0000;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 70px 0px;
+    }
+    .problem .container .qa-card{
+        display: block;
+        width: 660px;
+        position: relative;
+    }
+    .problem .container .qa-card .question{
+        display: block;
+        font-size: 18px;
+        padding: 20px 20px;
+        letter-spacing: 1px;
+        background-color: #FFFFFF;
+    }
+    .problem .container .qa-card .answer{
+        display: block;
+        font-size: 18px;
+        padding: 20px 20px;
+        letter-spacing: 1px;
+        background-color: #FBE9E9;
+        line-height: 30px;
+    }
+    .problem .container .qa-card .pic{
+        width: 36px;
+        position: absolute;
+        top: 10px;
+        right: 14px;
+        cursor: pointer;
+    }
+    .problem .container .qa-card .pic img{
+        width: 100%;
     }
 }
