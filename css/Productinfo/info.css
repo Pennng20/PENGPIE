@@ -164,4 +164,54 @@ input[type="date"] {
     border: 1px solid #ccc; 
     background-color: #fff; 
 }
-
+@media screen and (max-width: 768px) {
+    .info .container{
+        width: 62.5%;
+        margin: auto;
+        padding-top: 60px;
+        overflow:unset;
+    }
+    .info .container .pic-group{
+        width: 100%;
+        float: none;
+        /* display: block; */
+        /* text-align: center; */
+        margin:  0 auto;
+    }
+    .info .container .bigpic{
+        width: 500px;
+        border: 1px ;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .info .container .bigpic img{
+        width: 100%;
+    }
+    .info .container .smallpic {
+        width: 500px;
+        display: flex;
+        padding: 40px 0;
+    }
+    .info .container .smallpic img{
+        border: 1px ;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .info .container .text-group{
+        float: none; 
+        width: 627px;
+    }
+    .info .container .text-group .title{
+        font-size: 30px;
+        color: #644713;
+        letter-spacing: 2px;
+        padding-bottom: 30px;
+    }
+    .info .container .text-group .work span{
+        display: block;
+        color: #4F0000;
+        letter-spacing: 1px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+}
