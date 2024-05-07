@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/shopping/index.css">
+    <script src="js/shoppingNum.js"></script>
     <style>
     @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
     body{font-family: "cwTeXYen", sans-serif;}
@@ -86,8 +87,9 @@
     <section class="info">
         <div class="container">
             <div class="items">
+                <div class="line"></div>
                 <div class="item">
-                    <div class="page">
+                    <div class="page" style="background-color: #FEF9F9; border: 2px solid #4F0000; color: #4F0000;">
                         <span>01</span>
                     </div>
                     <div class="text">
@@ -112,7 +114,7 @@
                 </div>
             </div>
             <div class="cars-group">
-                <span>購物車</span>
+                <div class="car">購物車</div>
                 <div class="detail">
                     <span>商品資訊</span>
                     <span>優惠</span>
@@ -121,20 +123,22 @@
                     <span>小計</span>
                 </div>
                 <div class="cakes">
-                    <div class="pic">
-                        <img src="img/shopping/cake.png" alt="">
-                    </div>
-                    <div class="name">
-                        <span>滿滿草莓蛋糕</span>
+                    <div class="info">
+                        <div class="pic">
+                            <img src="img/shopping/cake.png" alt="">
+                        </div>
+                        <div class="name">
+                            <span>滿滿草莓蛋糕</span>
+                        </div>
                     </div>
                     <div class="price">
                         <span>NT$1,800</span>
                         <span>NT$2,100</span>
                     </div>
-                    <div class="num">
-                        <span>-</span>
-                        <input type="text">
-                        <span>+</span>
+                    <div class="quantity-input">
+                        <button class="decrease">-</button>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+                        <button class="increase">+</button>
                     </div>
                     <div class="subtotal">
                         <span>NT$1,800</span>
@@ -145,6 +149,40 @@
                         </div>
                     </div>
                 </div>
+                <div class="gift">
+                    <div class="info">
+                        <div class="pic">
+                            <img src="img/shopping/dish.png" alt="">
+                        </div>
+                        <div class="name">
+                            <span>贈品</span>
+                            <span>盤叉／蛋糕刀</span>
+                        </div>
+                    </div>
+                    <div class="onsale">
+                        <span>任選優惠</span>
+                        <span>蛋糕附贈盤叉與蛋糕刀</span>
+                    </div>
+                    <div class="price">
+                        <span>NT$0</span>
+                    </div>
+                    <div class="num">
+                        <span>1</span>
+                    </div>
+                    <div class="subtotal">
+                        <span>NT$0</span>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="text">
+                        <span>限到店取貨</span>
+                        <span>運費NT$0</span>
+                        <span>總計NT$ 1,800</span>
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <a href="">下一步 : 填寫資料</a>
             </div>
         </div>
     </section>
