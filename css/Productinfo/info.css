@@ -16,6 +16,7 @@
     border: 1px ;
     border-radius: 50px;
     cursor: pointer;
+    width: 100%;
 }
 .info .container .smallpic {
     width: 500px;
@@ -23,10 +24,16 @@
     justify-content: space-between;
     padding: 40px 0;
 }
-.info .container .smallpic img{
+.info .container .smallpic .pic{
+    width: 30%;
     border: 1px ;
     border-radius: 20px;
     cursor: pointer;
+    overflow: hidden;
+}
+.info .container .smallpic img{
+    width: 100%;
+    vertical-align: middle;
 }
 .info .container .text-group{
     float: right; 
