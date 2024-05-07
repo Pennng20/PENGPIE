@@ -28,6 +28,28 @@
     justify-content: space-evenly;
     padding: 50px 0;
 }
+.about-section .cards .item-list .item .item-pic{
+    
+}
+.about-section .cards .item-list .item .item-pic img{
+    width: 505px;
+    height: 505px;
+    vertical-align: middle;
+    border-radius: 50% 45% 58% 42% / 39% 38% 52% 60%;
+    transition: 0.5s;
+    animation: dog 4s 0s ease-in infinite alternate;
+}
+@keyframes dog {
+    25% {
+        border-radius: 50% 50% 72% 28% / 57% 48% 52% 53%;
+    }
+    50% {
+        border-radius: 70% 50% 46% 44% / 53% 48% 52% 40%;
+    }
+    100% {
+        border-radius: 60% 50% 44% 55% / 65% 56% 55% 35%;
+    }
+}
 .about-section .cards .item-list .item-texts{
     width: 500px;
     letter-spacing: 1px;
