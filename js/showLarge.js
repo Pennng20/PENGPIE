@@ -5,7 +5,7 @@ function showLarge(e){
 
 function init(){
 	// let smalls = document.querySelectorAll("#smallpic img");
-	let smalls = document.getElementsByClassName("pic");
+	let smalls = document.getElementsByClassName("pic-s");
 	for(let i=0; i<smalls.length; i++){
 		smalls[i].onclick = showLarge;
 	}

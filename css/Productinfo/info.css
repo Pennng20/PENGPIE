@@ -24,7 +24,7 @@
     justify-content: space-between;
     padding: 40px 0;
 }
-.info .container .smallpic .pic{
+.info .container .smallpic .pic-s{
     width: 30%;
     border: 1px ;
     border-radius: 20px;
@@ -182,7 +182,7 @@ input[type="date"] {
     padding: 7px; 
     font-size: 16px; 
     border: 1px solid #717171; 
-
+    text-decoration: none;
     border-radius: 20px; 
     background-color: #fff; 
     width: 144px;
@@ -196,6 +196,7 @@ input[type="date"] {
     cursor: pointer;
     border: 1px solid #717171; 
     background-color: #fff; 
+    text-decoration: none;
 }
 
 
