@@ -145,7 +145,7 @@
     }
     .homeheader .main-nav a{
         visibility: hidden;
-        display: none
+        display: none;
     }
     @media screen and (min-width: 768px){
     .homeheader .hb{
@@ -164,6 +164,7 @@
         top: 100%;
         left: 0;
         width: 100%;
+        z-index: 15;
     }
     .homeheader .main-nav a{
         display: block;
@@ -179,25 +180,30 @@
     }
     #menu-switch:checked ~  .main-nav{
         display: block;
-        z-index: 5;
     }
     #menu-switch:checked + .homeheader .hb{
         background-color: rgb(255, 198, 219);
     }
-    @media screen and (max-width: 430px) {
-    .homeheader .hb{
-        width: 40px;
-        height: 33px;
+    #menu-switch:checked ~ .hb{
+        position: relative;
+    }
+    #menu-switch:not(:checked) ~ .hb{
         background-color: #FF3D70;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 3px;
-        border-radius: 5px;
-        margin-right: 0px;
-        cursor: pointer;
-        }
+    }
+    #menu-switch:checked ~ .hb span:nth-child(1){
+        transform: rotate(45deg);
+        position: absolute;
+        left: 12%;
+        transition: all 0.5s;
+    }
+    #menu-switch:checked ~ .hb span:nth-child(2){
+        display: none;
+    }
+    #menu-switch:checked ~ .hb span:nth-child(3){
+        transform: rotate(-45deg);
+        position: absolute;
+        left: 12%;
+        transition: all 0.5s;      
     }
     @media screen and (max-width: 768px) {
         .homeheader .hb{
@@ -212,5 +218,22 @@
             border-radius: 5px;
             margin-right: 15px;
             cursor: pointer;
+            transition: all 0.5s;  
             }
+    }   
+
+    @media screen and (max-width: 430px) {
+    .homeheader .hb{
+        width: 40px;
+        height: 33px;
+        background-color: #FF3D70;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 3px;
+        border-radius: 5px;
+        margin-right: 0px;
+        cursor: pointer;
+        }
     } 
