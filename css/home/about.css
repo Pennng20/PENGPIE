@@ -18,27 +18,39 @@
     color: #644713;
 }
 .about .about-info span{
-    color: #644713;
-}
-.about .about-info span{
     margin-bottom: 5px;
     margin-left: 10px;
+    color: #644713;
+}
+
+.about .container .item-list{
+
 }
 .about .container .item-list .item{
-    display: flex;
-    justify-content: space-between;
-}
-.about .container .item-list .blue{
     position: relative;
-    top: -100px;
+    width: 80%;
+    height: 500px;
+    background-color: #FFF5F5;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
-.about .container .item-list .item .item-text{
-    width: 414px;
-    letter-spacing: 2px;
-    line-height: 36px;
-    align-content: center;
-    font-size: 18px;
+.about .container .item-list .item .item-pic{
+    width: 600px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
+.about .container .item-list .item .item-pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.about .container .item-list .item .item-text{}
+.about .container .item-list .item .item-text span{}
+.about .container .item-list .item .item-text p{}
+
+
+
 .about .container a .button {
     font-size: 20px;
     width: 150px;
@@ -82,7 +94,6 @@
         margin: 0 auto;
     }
 }
-
 @media screen and (max-width: 768px) {
     .container{
         width: 62.5%;
