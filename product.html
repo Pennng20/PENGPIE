@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pengpie烘焙甜點店</title>
     <link rel="stylesheet" href="css/product/index.css">
+    <script src="js/lightbox.js"></script>
+
     <style>
         @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
     body{font-family: "cwTeXYen", sans-serif;}
@@ -19,6 +21,45 @@
     </style>
 </head>
 <body>
+    <!--燈箱-->
+    <section class="lightbox" id="lightBox">
+        <div class="container">
+            <div class="title-info">
+                <h2>會員登入</h2><span>Member login</span>
+            </div>
+            <div class="item">
+                <div class="close" id="close">
+                    <img src="img/login/close.png" alt="">
+                </div>
+                <div class="account">
+                    <label for="">帳號 :</label>
+                    <input type="text">
+                </div>
+                <div class="account">
+                    <label for="">密碼 :</label>
+                    <input type="text">
+                </div>
+                <div class="button">
+                    <input type="button" value="登入">
+                </div>
+                <div class="other">
+                    <span>忘記密碼</span>
+                    <span>使用其他方式登入</span>
+                </div>
+                <div class="community">
+                    <div class="pic">
+                        <img src="img/login/google.png" alt="">
+                        <img src="img/login/fb.png" alt="">
+                        <img src="img/login/line.png" alt="">
+                    </div>
+                </div>
+                <div class="register">
+                    <span>還不是會員嗎?</span>
+                    <span>註冊帳號</span>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- 導覽列 -->
     <header class="homeheader">
         <div class="pic">
@@ -86,8 +127,8 @@
         </div>
         <div class="second">
             <div class="icon">
-                <div class="icon-pic">
-                    <a href="login.html"><img src="img/index/header/login3.png" alt="登入"></a>
+                <div class="icon-pic" id="btnLogin">
+                    <img src="img/index/header/login3.png" alt="登入">
                 </div>
             </div>
             <div class="icon">

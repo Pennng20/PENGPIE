@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/home/index.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/lightbox.js"></script>
 
     <style>
         @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
@@ -41,13 +43,13 @@
     </script>
 
     <!--燈箱-->
-    <section class="lightbox">
+    <section class="lightbox" id="lightBox">
         <div class="container">
             <div class="title-info">
                 <h2>會員登入</h2><span>Member login</span>
             </div>
             <div class="item">
-                <div class="close">
+                <div class="close" id="close">
                     <img src="img/login/close.png" alt="">
                 </div>
                 <div class="account">
@@ -146,8 +148,8 @@
         </div>
         <div class="second">
             <div class="icon">
-                <div class="icon-pic">
-                    <a href="login.html"><img src="img/index/header/login3.png" alt="登入"></a>
+                <div class="icon-pic" id="btnLogin">
+                    <img src="img/index/header/login3.png" alt="登入">
                 </div>
             </div>
             <div class="icon">
@@ -286,7 +288,7 @@
                 <h2>菜單</h2><span>MENU</span>
             </div>
             <div class="item-list">
-                <div class="button-left">
+                <div class="button-left" id="button-left">
                     <img src="img/index/new/arrow3.png" alt="">
                 </div>
                 <div class="item">
@@ -316,7 +318,7 @@
                         <div class="price">$480元</div>
                     </div>
                 </div>
-                <div class="button-right">
+                <div class="button-right" id="button-right">
                     <img src="img/index/new/arrow3left.png" alt="">
                 </div>
             </div>

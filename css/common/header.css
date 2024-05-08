@@ -73,6 +73,7 @@
     width: 45px;
     padding-right: 15px;
     padding-top: 10px;
+    cursor: pointer;
 }
 .homeheader .second .icon .icon-pic a{
     width: 50px;
@@ -114,6 +115,7 @@
     .homeheader .second .icon .icon-pic{
         width: 38px;
         padding-bottom: 10px;
+        cursor: pointer;
     }
 }
     .homeheader input{
