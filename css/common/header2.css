@@ -44,7 +44,7 @@
     transition: transform 0.5s ease; 
 }
 .homeheader .Mainmenus .icon-logo:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .homeheader .Mainmenus .icon .icon-pic{
     width: 50px;

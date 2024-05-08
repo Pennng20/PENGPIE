@@ -28,8 +28,32 @@
     justify-content: space-evenly;
     padding: 50px 0;
 }
-.about-section .cards .item-list .item .item-pic{
-    
+.about-section .cards .item-list .item .item-texts .line{
+    border-bottom: 1px solid #4F0000;
+    padding-bottom:6px ;
+    width: 400px;
+}
+.about-section .cards .item-list .item .item-texts .text{
+    padding-top: 6px;
+    width: 420px;
+}
+.about-section .cards .item-list .item .item-texts span:first-child{
+    font-size: 28px;
+}
+.about-section .cards .item-list .item-texts{
+    width: 500px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    align-content: center;
+    font-size: 18px;
+    color: #4F0000;
+}
+.about-section .cards .item-list .item-texts span{
+    width: 500px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    align-content: center;
+    font-size: 22px;
 }
 .about-section .cards .item-list .item .item-pic img{
     width: 505px;
@@ -50,24 +74,17 @@
         border-radius: 60% 50% 44% 55% / 65% 56% 55% 35%;
     }
 }
-.about-section .cards .item-list .item-texts{
-    width: 500px;
-    letter-spacing: 1px;
-    line-height: 36px;
-    align-content: center;
-    font-size: 18px;
-    color: #4F0000;
-}
-.about-section .cards .item-list .item-texts span{
-    width: 500px;
-    letter-spacing: 2px;
-    line-height: 36px;
-    align-content: center;
-    font-size: 22px;
-}
 @media screen and (max-width: 768px){
+    .about-section .cards .item-list .item .item-pic img{
+        width: 360px;
+        height: 360px;
+        vertical-align: middle;
+        border-radius: 50% 45% 58% 42% / 39% 38% 52% 60%;
+        transition: 0.5s;
+        animation: dog 4s 0s ease-in infinite alternate;
+    }
     .about-section .background{
-        height: 1900px;
+        height: 2340px;
     }
     .about-section .title-text .big{ 
         font-size: 28px;
@@ -76,10 +93,10 @@
         color: #644713;
     }
     .about-section .title-text .small{
-        font-size: 16px;
         color: #644713;
         letter-spacing: 0;
         line-height: 30px;
+        font-size: 26px;
     }
     .about-section .cards{
         width: 100%;
@@ -94,26 +111,40 @@
         flex-direction: column;
         align-items: center;
         padding: 20px 0;
+        margin: 30px 0;
+        margin-top: 50px;
+        border-radius: 50px;
+        background-color: #FFF5F5;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);;
     }
-    .about-section .cards .item-list .item-texts{
-        width: 100%;
-        line-height: 30px;
-        font-size: 16px;
-        color: #4F0000;
-        padding-top: 40px;
-        text-align: center;
+    .about-section .cards .item-list .item .item-texts .line{
+        border-bottom: 1px solid #4F0000;
+        padding-bottom: 4px ;
+        width: 210px;
+    }
+    .about-section .cards .item-list .item .item-texts .text{
+        padding-top: 6px;
+        width: 420px;
+    }
+    .about-section .cards .item-list .item .item-texts span:first-child{
+        font-size: 24px;
     }
     .about-section .cards .item-list .item-texts span{
+        width: 400px;
         letter-spacing: 2px;
         line-height: 36px;
         align-content: center;
-        font-size: 24px;
+        font-size: 22px;
     }
-    .about-section .cards .item-list .item-pic{
-        width: 300px;
-    }
-    .about-section .cards .item-list .item-pic img{
-        width: 100%;
+    .about-section .cards .item-list .item-texts{
+        width: 424px;
+        line-height: 30px;
+        font-size: 16px;
+        color: #4F0000;
+        padding-top: 0;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
