@@ -104,7 +104,7 @@ label input[type="text"] {
     vertical-align:top;
 }
 .button input[type="button"] {
-    padding: 6px 18px; 
+    padding: 10px 18px; 
     font-size: 16px; 
     border: 1px solid #644713;
     background-color: #ffffff; 
@@ -219,7 +219,7 @@ label input[type="text"] {
         vertical-align:top;
     }
     .button input[type="button"] {
-        padding: 6px 18px; 
+        padding: 10px 16px; 
         font-size: 16px; 
         border: 1px solid #644713;
         background-color: #ffffff; 
@@ -252,7 +252,6 @@ label input[type="text"] {
     .contact .container .list-group{
         display: block;
         margin: auto;
-        padding: 0;
     }
     .contact .container .list-group .list-title{
         padding: 0;
@@ -325,7 +324,7 @@ label input[type="text"] {
         color: rgb(0, 0, 0);
         border-radius: 20px; 
         cursor: pointer; 
-        margin-left: 220px;
-        margin-top: 0px;
+        margin-left: 170px;
+        padding-top: 40px;
     }
 }

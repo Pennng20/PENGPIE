@@ -40,6 +40,9 @@
     border-radius: 50px;
     text-align: left;
 }
+.news-section .card-list .card:hover{
+    border: 2px solid #4F0000;
+}
 .news-section .card-list .card img{
     vertical-align: middle;
     object-fit: cover;
@@ -57,10 +60,13 @@
     letter-spacing: 1px;
 }
 .news-section .card-list .card .card-text .year{
-    border: 1px solid #644713;
+    border: 1px solid #555555;
     display: inline;
     padding: 6px 15px;
-    border-radius: 28px;
+    border-radius: 16px;
+    background-color: #FF7D7D;
+    color: white;
+    font: bold;
 }
 
 @media screen and (max-width: 768px) {

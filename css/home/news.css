@@ -38,7 +38,7 @@
     margin-bottom: 40px;
 }
 .news .item-list .item:hover{
-    text-align: center;
+    border: 2px solid #4F0000;
 }
 .news .item-list .item .item-pic{
     width: 280px;
