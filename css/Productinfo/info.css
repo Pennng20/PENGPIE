@@ -136,13 +136,16 @@
     display: block;
     width: 900px;
     position: relative;
+    border-radius: 50px;
 }
 .problem .container .qa-card .question{
     display: block;
     font-size: 18px;
     padding: 20px 20px;
     letter-spacing: 1px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    border-bottom: 1px solid #4f4f4f;
+    cursor: pointer;
 }
 .problem .container .qa-card .answer{
     display: block;
@@ -151,6 +154,7 @@
     letter-spacing: 1px;
     background-color: #FBE9E9;
     line-height: 30px;
+    display: none;
 }
 .problem .container .qa-card .pic{
     width: 36px;
@@ -357,6 +361,8 @@ input[type="date"] {
     input[type="date"] {
         width: 154px;
         border: 1px solid #757575; 
+        text-decoration: none;
+
     }
     .botton input[type="button"] {
         padding: 10px px; 
@@ -365,6 +371,7 @@ input[type="date"] {
         cursor: pointer;
         border: 1px solid #757575; 
         background-color: #fff; 
+        text-decoration: none;
     }
     .problem{
         background-color: #F4C9C9;
@@ -374,6 +381,8 @@ input[type="date"] {
         margin: 0 auto;
         padding-bottom: 90px;
         padding-top: 20px;
+        text-decoration: none;
+
     }
     .problem .container .title{
         font-size: 32px;
