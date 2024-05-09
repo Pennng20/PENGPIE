@@ -83,9 +83,9 @@
 .ingredient-section .container .card-group .card:hover > .text{
     display: block;
     cursor: pointer;
+    border: 2px solid #4F0000;
 }
 .ingredient-section .container .card-group .card:hover > .pic{
-    opacity: .6;
     transition: 1s;
     cursor: pointer;
 }
@@ -177,7 +177,7 @@
         letter-spacing: 5px;
         font-size: 14px;
         position: absolute;
-        top: 82px;
+        top: 68px;
         left: -50px;
         background-color: #FBE9E9;
         width: 50px;
@@ -189,6 +189,11 @@
         font-size: 12px; 
         color: #4F0000; 
         font: weight 600px;
+    }
+    .ingredient-section .container .card-group .card:hover > .text{
+        display: block;
+        cursor: pointer;
+        border: 1px solid #4F0000;
     }
 }
 

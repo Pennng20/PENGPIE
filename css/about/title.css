@@ -214,4 +214,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .about-section .cards .item-list .item:hover{
+        border: 2px solid #4F0000;
+    }
 }
